@@ -488,13 +488,6 @@ MAX_RAG_ITERATIONS=1
 - Verify `LANGCHAIN_TRACING_V2=true`
 - Check correct project name at https://smith.langchain.com
 
-## Additional Resources
-
-- 📖 **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Complete system architecture with flowcharts
-- 💻 **[CODE_GUIDE.md](docs/CODE_GUIDE.md)** - Implementation details for developers  
-- ⚡ **[PERFORMANCE.md](docs/PERFORMANCE.md)** - Performance optimization guide
-- 📊 **[LANGSMITH.md](docs/LANGSMITH.md)** - Observability and tracing setup
-- 🎨 **[DESIGN.md](docs/DESIGN.md)** - Architecture decisions and tradeoffs
 
 ## License
 
