@@ -505,7 +505,7 @@ MIT
 ```bibtex
 @software{multi_agent_research,
   title={Multi-Agent Deep Research System},
-  author={Ujwal Doijode},
+  author={Ujwal K Doijode},
   year={2026},
   url={https://github.com/UjwalDoijode/Assignment}
 }
