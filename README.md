@@ -71,6 +71,41 @@ The system will:
 - Print results to console
 - Save JSON trace to `traces/`
 
+## API Server
+
+Start the API server:
+
+```bash
+pip install fastapi "uvicorn[standard]"
+python server.py
+```
+
+The server will start on `http://localhost:8000`.
+
+### Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | `/research` | Submit a research question |
+| GET | `/health` | Health check + registry status |
+| GET | `/collections` | List indexed document collections |
+
+### Example
+
+```bash
+curl -X POST http://localhost:8000/research \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is the battery life of the M-300?", "mode": "balanced"}'
+```
+
+**Performance Modes:**
+- `ultra_fast`: Direct retrieval, no verification (~5-7s)
+- `balanced`: Agentic retrieval, no verification (~8-12s)
+- `full_quality`: Full agentic loop + verification (~15-20s)
+
+**Interactive API Docs:**  
+Visit `http://localhost:8000/docs` for Swagger UI with live endpoint testing.
+
 ## Architecture
 
 ```
