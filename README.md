@@ -505,8 +505,8 @@ MIT
 ```bibtex
 @software{multi_agent_research,
   title={Multi-Agent Deep Research System},
-  author={Your Name},
+  author={Ujwal Doijode},
   year={2026},
-  url={https://github.com/yourusername/multi-agent-research}
+  url={https://github.com/UjwalDoijode/Assignment}
 }
 ```
