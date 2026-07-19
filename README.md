@@ -336,32 +336,6 @@ Complete system architecture with flowcharts:
 - Performance characteristics and bottlenecks
 - Technology stack details
 
-### 💻 [CODE_GUIDE.md](docs/CODE_GUIDE.md)
-Implementation details for developers:
-- Configuration system walkthrough
-- Pydantic state models explained
-- Registry and centroid routing implementation
-- Document ingestion pipeline
-- Hybrid retrieval (RRF) algorithm
-- LangGraph definition and routing
-- All agent implementations with code samples
-- Extension points for customization
-
-### ⚡ [PERFORMANCE.md](docs/PERFORMANCE.md)
-Performance optimization guide:
-- Quick wins to reduce latency
-- Ultra-Fast, Balanced, and Full Quality modes
-- Latency breakdown by component
-- Configuration examples
-- Testing your setup
-
-### 📊 [LANGSMITH.md](docs/LANGSMITH.md)
-LangSmith observability integration:
-- Complete trace visibility
-- Token usage tracking
-- Prompt engineering insights
-- Debugging failed queries
-- Configuration and usage
 
 ## Performance Tuning
 
