@@ -1,0 +1,2 @@
+# Drop your SQLite database files here (.db or .sqlite)
+# The ingestion pipeline will auto-discover and introspect them

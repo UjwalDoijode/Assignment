@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# ChromaDB
+chroma_db/
+
+# BM25 indexes
+bm25_indexes/
+bm25_index/
+*.pkl
+
+# Traces
+traces/
+
+# Registry (optional - uncomment to track registry in git)
+# registry.json
+
+# Corpus files (keep structure but not files)
+corpus/pdfs/*.pdf
+corpus/databases/*.db
+corpus/databases/*.sqlite
+
+# Test/demo corpus documents
+corpus-docs/
+
+# Internal transcripts/test data
+transcripts/
+
+# Project documentation (internal use only)
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
